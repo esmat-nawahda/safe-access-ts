@@ -1,6 +1,6 @@
 {
   "name": "safe-access-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unleash the power of TypeScript to safely access, set, or delete deeply nested object properties. Bid adieu to 'Cannot read property of undefined' errors and embrace a world of defensive and robust code.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
