@@ -46,6 +46,8 @@ function safeSetProperty(obj: object, path: Path, value: any): void {
             current[key] = value;
         }
     }
+
+    return current
 }
 
 function safeDeleteProperty(obj: object, path: Path): void {
@@ -64,6 +66,8 @@ function safeDeleteProperty(obj: object, path: Path): void {
             delete current[key];
         }
     }
+
+    return current
 }
 
 export { safeGetProperty, safeSetProperty, safeDeleteProperty };
